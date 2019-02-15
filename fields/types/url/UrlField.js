@@ -11,7 +11,7 @@ module.exports = Field.create({
 		var href = this.props.value;
 		if (!href) return;
 		if (!/^(mailto\:)|(\w+\:\/\/)/.test(href)) {
-			href = 'http://' + href;
+			//href = 'http://' + href;
 		}
 		window.open(href);
 	},

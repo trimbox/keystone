@@ -15,7 +15,7 @@ var UrlColumn = React.createClass({
 		// if the value doesn't start with a prototcol, assume http for the href
 		var href = value;
 		if (href && !/^(mailto\:)|(\w+\:\/\/)/.test(href)) {
-			href = 'http://' + value;
+			//href = 'http://' + value;
 		}
 
 		// strip the protocol from the link if it's http(s)
